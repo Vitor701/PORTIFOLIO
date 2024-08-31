@@ -68,26 +68,36 @@ position: left;
     margin-right:1000px;
     
     
-}    
+} 
+/*
+nav{
+    display: flex;
+    gap: 2 rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+*/
+
+
 
 
 
 .informações a {
-    margin-right:30px;/* Adiciona espaçamento à direita de cada link */
-    text-decoration: none; /* Remove o sublinhado dos links */
+    margin-right:20px; /* Adiciona espaçamento à direita de cada link */
+    text-decoration: none;  /* Remove o sublinhado dos links */
     color:azure;
-    text-align: center;
+    text-align: center; 
+    justify-content: center;
+}
+    
     
 
     
 
 
 
-}
 
-.informações a:last-child {
-    margin-right: 120px; /* Remove o espaçamento do último link */
-}
 
 
 
